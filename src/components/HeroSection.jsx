@@ -27,7 +27,7 @@ const HeroSection = () => {
             <div className='absolute md:left-50 md:right-50 flex flex-col items-center justify-center h-full text-white text-center px-4 z-10'>
                 <div data-aos='zoom-in' data-aos-delay='700'>
                     <h1 className='text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg'>
-                        Welcome to Opal Place
+                        Welcome to Event Place
                     </h1>
                 </div>
                 <div data-aos='fade-up' data-aos-delay='1000'>

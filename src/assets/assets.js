@@ -77,22 +77,22 @@ export const dummyTestimonial = [
     {
         name: 'Mr. Chinedu Okoye',
         image: assets.ceo,
-        quote: 'We hosted our annual business conference at Opal place and it exceeded all our expectations.',
+        quote: 'We hosted our annual business conference at Event place and it exceeded all our expectations.',
     },
     {
         name: 'David Praise',
         image: assets.staff_1,
-        quote: 'We used Opal Place for our live gospel concert and the experience was phenomenal.',
+        quote: 'We used Event Place for our live gospel concert and the experience was phenomenal.',
     },
     {
         name: 'Linda Ebube',
         image: assets.staff_2,
-        quote: 'My 40th birthday celebration at Opal place was a dream come true.',
+        quote: 'My 40th birthday celebration at Event place was a dream come true.',
     },
     {
         name: 'Chika & Emeka',
         image: assets.couple_6,
-        quote: 'From the moment we stepped in, we knew Opal Place was the right venue.',
+        quote: 'From the moment we stepped in, we knew Event Place was the right venue.',
     },
     {
         name: 'Anita & Kingsley O.',
@@ -102,7 +102,7 @@ export const dummyTestimonial = [
     {
         name: 'Mr. & Mrs. Emmanuel N',
         image: assets.couple_5,
-        quote: 'Our wedding at Opal Place was nothing short of a fairytale.'
+        quote: 'Our wedding at Event Place was nothing short of a fairytale.'
     }
 ];
 
@@ -171,7 +171,7 @@ export const dummyServices = [
         details: {
             MenuTypes: ['Buffet', 'À la carte'],
             Capacity: 'Up to 1000 guests',
-            Client: 'Opal Launch Party - Dec 2024',
+            Client: 'Event Launch Party - Dec 2024',
         }
     },
     {
@@ -229,7 +229,7 @@ export const dummyGalleryCard = [
         slug: 'drive-thru',
         galleryImage: assets.drive_thru,
         shortDescription: 'Convenient drive-thru access with a classy touch for seamless entry.',
-        longDescription: `The Drive Thru at Opal Place is more than just an entry point—it's an introduction to elegance. With a paved path, lighting, and shelter, guests arrive in style and comfort. This area is perfect for vehicle processions during weddings, VIP guest arrivals, or luxury car displays. It’s not just functional—it makes a statement and offers an organized and aesthetic approach to your venue entrance.`,
+        longDescription: `The Drive Thru at Event Place is more than just an entry point—it's an introduction to elegance. With a paved path, lighting, and shelter, guests arrive in style and comfort. This area is perfect for vehicle processions during weddings, VIP guest arrivals, or luxury car displays. It’s not just functional—it makes a statement and offers an organized and aesthetic approach to your venue entrance.`,
     },
 ];
 

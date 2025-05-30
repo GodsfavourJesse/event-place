@@ -80,7 +80,7 @@ const About = () => {
                 <section className="mt-24 space-y-4">
                     <h2 className="text-3xl text-center font-semibold text-indigo-600 mb-4">🎯 Our Mission</h2>
                     <p className="text-gray-700 leading-relaxed">
-                        At <strong>Opal Place</strong>, our mission is to <strong>deliver exceptional, customer-centered experiences</strong> by blending creativity, quality, and care. We are committed to creating an environment where every guest feels <strong>welcome, valued, and appreciated</strong>.
+                        At <strong>Event Place</strong>, our mission is to <strong>deliver exceptional, customer-centered experiences</strong> by blending creativity, quality, and care. We are committed to creating an environment where every guest feels <strong>welcome, valued, and appreciated</strong>.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                         We strive to <strong>go beyond expectations</strong>, ensuring our services are not only professional and reliable, but also <strong>emotionally impactful</strong>. By continuously listening, innovating, and staying true to our values, we aim to <strong>inspire joy, confidence, and trust</strong>.
@@ -94,7 +94,7 @@ const About = () => {
                 <section className="mt-24 space-y-4">
                     <h2 className="text-3xl text-center font-semibold text-indigo-600 mb-4">👁 Our Vision</h2>
                     <p className="text-gray-700 leading-relaxed">
-                        Our vision is to be <strong>a leading and trusted name</strong> in our industry — setting the standard in quality, creativity, and guest satisfaction. We envision Opal Place as a <strong>multifaceted destination</strong> where style meets substance.
+                        Our vision is to be <strong>a leading and trusted name</strong> in our industry — setting the standard in quality, creativity, and guest satisfaction. We envision Event Place as a <strong>multifaceted destination</strong> where style meets substance.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                         We aim to build a legacy of <strong>exceptional service and positive influence</strong> through meaningful relationships, continuous improvement, and respect for the people we serve.
