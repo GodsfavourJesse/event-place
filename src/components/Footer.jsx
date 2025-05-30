@@ -18,7 +18,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-xl font-semibold text-white mb-4">Contact Us</h3>
                     <ul className="space-y-2 text-sm">
-                        <li className="text-gray-400">Email: <span className="text-white">info@opalplace.com</span></li>
+                        <li className="text-gray-400">Email: <span className="text-white">info@eventplace.com</span></li>
                         <li className="text-gray-400">Phone: <span className="text-white">+1 234 567 890</span></li>
                     </ul>
                     <div className="flex justify-center lg:justify-start gap-4 mt-4">
