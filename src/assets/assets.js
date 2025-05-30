@@ -26,6 +26,7 @@ import wedding from './wedding.jpg'
 import cake_day from './cake-day.jpg'
 import co_operate from './co-operate.jpg'
 import sound_system from './sound-system.jpg'
+import event_place from './event-place.png'
 
 export const assets =  {
     banner,
@@ -55,7 +56,8 @@ export const assets =  {
     bride,
     cake_day,
     co_operate,
-    sound_system
+    sound_system,
+    event_place
 };
 
 export const dummyTestimonial = [
