@@ -32,7 +32,7 @@ const GalleryDetails = () => {
                 <div>
                     <h2 className="text-xl font-semibold mb-2">Client Feedback</h2>
                     <p className="italic text-gray-600">
-                    "We were absolutely blown away by the beauty and elegance of the decoration. Every detail was magical. Thank you, Opal Place!"
+                    "We were absolutely blown away by the beauty and elegance of the decoration. Every detail was magical. Thank you, Event Place!"
                     </p>
                     <p className="text-right text-sm text-gray-500 mt-2">— Felicia & Daniel</p>
                 </div>
