@@ -80,7 +80,11 @@ const BookingForm = () => {
                         </div>
                     )}
 
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form 
+                        action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST"
+                        onSubmit={handleSubmit} 
+                        className="space-y-6"
+                    >
                         <input 
                             type="text"
                             name="name"

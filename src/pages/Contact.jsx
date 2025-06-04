@@ -92,7 +92,11 @@ const Contact = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-md shadow-md">
+                    <form 
+                        action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST"
+                        onSubmit={handleSubmit} 
+                        className="bg-white p-8 rounded-md shadow-md"
+                    >
                         {status && (
                             <div
                                 className={`mb-4 px-4 py-3 rounded ${

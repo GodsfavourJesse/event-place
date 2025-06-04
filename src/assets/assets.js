@@ -268,6 +268,6 @@ export const dummyAboutUs = [
     },
     {
         head: 'A Place That Feels Like Home',
-        text: 'Whether you’re booking a service or attending an event, Opal Place welcomes you with open arms and a touch of elegance.'
+        text: 'Whether you’re booking a service or attending an event, Event Place welcomes you with open arms and a touch of elegance.'
     }
 ];

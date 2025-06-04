@@ -1,12 +1,55 @@
-# React + Vite
+# EventPlace – Event Center Website Template (React + Vite + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive event center landing page built with **React**, **Vite**, and **TailwindCSS**. Perfect for event venues, booking agencies, and event organizers.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://event-place.vercel.app](https://event-place.vercel.app)
 
-## Expanding the ESLint configuration
+## 📁 What's Inside
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React components (`/src`)
+- TailwindCSS setup
+- Vite configuration
+- Public assets (`/public`)
+- Fully functional and styled booking/contact form
+- Ready for deployment (tested on Vercel)
+
+## 📩 Booking Form Setup with FormSubmit
+
+This template uses [FormSubmit](https://formsubmit.co) to handle form submissions without a backend.
+
+### ✏️ How to Configure
+
+1. Open the component that contains the booking/contact form (e.g., `src/components/Contact.jsx`)
+2. Locate the `<form>` tag and update it like this:
+
+```jsx
+<form
+  action="https://formsubmit.co/YOUR_EMAIL_HERE"
+  method="POST"
+>
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Booking Message" required />
+  
+  {/* Optional hidden inputs */}
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value="https://event-place.vercel.app/thank-you" />
+
+  <button type="submit">Send</button>
+</form>
+
+
+📄 License
+This template is licensed for personal and commercial use.
+You are free to:
+
+Use it for client work or personal projects
+
+Customize it
+
+Sell it as part of a larger solution
+
+You may not:
+Resell this template as-is without significant modification
